@@ -4,9 +4,17 @@
         <servlet-name>ServletEstudiantes</servlet-name>
         <servlet-class>servicios.ServletEstudiantes</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>ServletLogin</servlet-name>
+        <servlet-class>servicios.ServletLogin</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>ServletEstudiantes</servlet-name>
         <url-pattern>/ServletEstudiantes</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ServletLogin</servlet-name>
+        <url-pattern>/ServletLogin</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

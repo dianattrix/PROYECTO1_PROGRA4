@@ -18,6 +18,7 @@
                 <h1>Página principal</h1>    
             </div>
             <nav>
+                <a href="login.jsp">Login</a>
                 <p>
                     Haga clic
                     <a href="RegistroEstudiantes.jsp">aquí</a>
